@@ -154,3 +154,10 @@ const allPetNames = (array) => {
   })
 }
 console.log(allPetNames(pets)) //[ 'MOOSE', 'LOKI', 'NOVA', 'DAN', 'REMII' ]
+
+const mixedData = [true, "yo", 0, null, false, "", 52, "hello"]
+
+let result = mixedData.filter((value) => value)
+console.log(result) / [true, "yo", 52, "hello"]
+if (cat) {
+}
