@@ -92,3 +92,4 @@ def buffy_roles hash
 end
 
 p buffy_roles characters
+# ["Buffy's role is slayer", "Willow's role is witch", "Spike's role is vampire"]
